@@ -1574,6 +1574,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: HomeButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7739652372577138120, guid: 9b6de59221dce804c9a5243002da0344,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739652372577138122, guid: 9b6de59221dce804c9a5243002da0344,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7739652372845940930, guid: 9b6de59221dce804c9a5243002da0344,
         type: 3}
       propertyPath: m_Name

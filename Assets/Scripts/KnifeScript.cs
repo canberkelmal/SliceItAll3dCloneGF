@@ -239,6 +239,7 @@ public class KnifeScript : MonoBehaviour
         knifeMovement.velocity = Vector3.zero;
         knifeMovement.AddForce(0, yMovement, zMovement, ForceMode.Impulse);
         yMovement = yMovementTemp;
+
         //Rotate Knife each tap
         knifeMovement.AddTorque(-transform.up * clickRotationSens, ForceMode.Impulse);
 
